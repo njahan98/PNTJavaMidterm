@@ -23,5 +23,5 @@ public class DuplicateWord {
     	} 
     	System.out.println(hm);
     }
-
+//STILL NEEDS WORK; DIDNT COMPLETE AVG LENGTH OF WORDS**
 }
