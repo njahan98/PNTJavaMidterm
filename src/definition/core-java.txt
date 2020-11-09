@@ -1,15 +1,34 @@
 Please answer the below core-java Questions:
 
 What is programing language?
-Ans :
+Ans: They are building blocks of programs, scripts, commands, etc, in order to create software applications for computing devices to execute. 
 
 What jdk contains or composed of and define each components?
+Ans: JDK, or Java Development Kit, is a set of development tools needed to run Java. It consists of JRE, the IDE (java), complier (javac), libraries
+and operating systems, JVM and the operating system. 
+
 What is IDE?
+Ans: IDE is the Integrated Development Environment. This is a program like eclipse or intellij, which allow code to be run in proper syntax. 
+These programs allow for auto-syntax to appear as well. For example, something like "public class Holiday {" will always auto appear when creating a class for
+Java.
+
 What are the IDEs available in the market to support java?
+Ans: Eclipse, IntelliJ, BlueJ, NetBeans, (Oracle) JDeveloper, DrJava. 
+
 Explain the entire java life cycle.
+Ans: 1- Editing the program. You can use a text editor such as Sublime Text, or even Notepad++. You write your code, then save it. 
+2- Compile the source code. which then becomes javac. To do so, you make sure the file is saved with ".java" at the end of its name. 
+3- Executing the byte code. It gets executed once the code is compiled, and it will be outputted by the JVM. 
+
 what is class?
+Ans: It is a template that describes the data and behavior associated with the instances of that class. It is used to create objects to do such instances. 
+
 What is object?
+Ans: Objects are modules that contain data and instructions. They are essentially the traits of a class.  
+
 What is the entry point of an application?
+Ans: 
+
 Why main is static?
 Which class is the superclass of all classes?
 What is difference between path and classpath variables?
