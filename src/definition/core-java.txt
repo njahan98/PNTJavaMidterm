@@ -27,11 +27,18 @@ What is object?
 Ans: Objects are modules that contain data and instructions. They are essentially the traits of a class.  
 
 What is the entry point of an application?
-Ans: 
+Ans: It is the main method, which is the start of the program. No matter where public static void main is in the program, Java will always output it first.
 
 Why main is static?
+Ans: It's due to the fact Java has to have a single main entry point for the JVM, otherwise it will produce an error. Java always needs it to be static,
+so it can load with or without object creation. 
+
 Which class is the superclass of all classes?
+Ans: Java.lang.Object is the superclass. It is the main class where other classes get information to and from. 
+
 What is difference between path and classpath variables?
+Ans: 
+
 What is the difference between an Interface and Abstract class?
 Can you make an Object from an Interface and Abstract class ? if not how do you use it ?
 what is Access Specifier?
