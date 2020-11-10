@@ -1,5 +1,7 @@
 package math.problems;
 
+import java.lang.reflect.Array;
+
 public class FindLowestDifference {
 	 /*
          Implement in java.
@@ -12,19 +14,14 @@ public class FindLowestDifference {
         int[] array1 = {30, 12, 5, 9, 2, 20, 33, 1};
         int[] array2 = {18, 25, 41, 47, 17, 36, 14, 19};
 
-        System.out.println(lowDiff(array2, array1));
-
-    }
-    static int lowDiff(int[] arr, int s)
-    {
-        int difference = Integer.MAX_VALUE;
-
-        for (int i=0; i<s-1; i++)
-            for (int j=i+1; j<s; j++)
-                if (Math.abs((arr[i] - arr[j]) )< difference)
-                    difference = Math.abs((arr[i] - arr[j]));
-
-        return difference;
-    }
-
+        int lowDif = array1[0];
+        for (int i=0; i < Array.getLength(array1); i++) {
+        	if ((array1[i] < array2[i]) && (array1[i] < lowDif)) {
+        		lowDif = array1[i];
+        	}else if (array2[i] < lowDif) {
+        		lowDif = array2[i];
+        	}
+        }
+        System.out.println(lowDif);   
+	}
 }
