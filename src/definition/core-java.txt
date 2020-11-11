@@ -82,44 +82,126 @@ What is static keyword in java? How it has been used in variables and methods ?
 Ans: Static is a constant that can be used to refer to the common property of all objects. It can be a variable, method, block, or nested class. It can be accessed at any time, and it's beneficial because it is memory efficient. 
 
 What is final and how it has been used variables and methods?
-Ans: It is a non-access modifier used only for variables, methods and classes. They are used to create constant variables, prevents method overriding, and prevent inheritance. It is a constant, like static methods, and it cannot be modified once declared.  
+Ans: It is a non-access modifier used only for variables, methods and classes. They are used to create constant variables, prevents method overriding, and prevent inheritance. It is a constant, like static methods, and it cannot be modified once declared.   
 
 What is final, finally and finalize?
+Ans: Final is a keyword to use with class method and variable. it cannot be changed, overriden or reassigned.  
+Finally is a keyword to create a block of code that follows a try block. It always executes, regardless of an exception occurring or not. 
+Finalize is a method to use prior to object creation. 
+
 What is a constructor ?
+Ans: It is used to initialize onjects. It is called once the object of the class is created. They are instances, but not methods, because it does not have a return type. 
+
 Can we have multiple constructors in a class?
+Ans: You can have multiple consructors in a class, but they need to be different parameter types. 
+
 If we don't have a constructor declared, what is called during the object creation?
+Ans: If a class does not declare one constructor, Java automatically provides a default constructor. it calls the class parent's object constructor if the class has no other parent. 
+
 What is "this" keyword in java ?
+Ans: It refers to the current object being called. 
+
 What is "super" keyword in java? How many possible way can you use?
+Ans: It is a reference variable which is used to access of the field of parent class. It is used if parent class and child class have the same fields. 
+
 What is JVM stand for ?
+Ans: JVM (Java Virtual Machine) manages system memory and provides an environment for java to be executed.   
+
 Is JVM platform independent?
+Ans: It is platform independent because of it's bytecode. It's beneficial because it makes Java a very portable language. It can be designed for diffrent operating systems and the bytecode will be able to run on different operating systems. 
+
 What version of java are you using?
+Ans: Jdk 13. 
+
 What is JAR stand for ?
+Ans: Java Archive. It is similar to a zip file, because it stores many different files into one file. 
+
 What is the difference between JDK and JVM?
+Ans: JDK (Java development kit) is used to develop java applications and physically exists. 
+JVM is a virtual machine that doesn't physically exist. It provides an environemnt for Java to be executed. 
+
 What is the difference between JVM and JRE?
+Ans: The JVM loads code, verifies code, executes code, and provides a runtime environment. 
+JRE (Java Runtime Environment) is a set of tools that are used to develop Java applications. Compared to JVM, it physically exists and it is an implementation of JVM. 
+
 What is compile time and run time?
+Ans: Compile time is the instance where the code converts to executable. Run time is the instance where the executable is running. These are also used to refer to different types of errors. 
+
 What is heap?
+Ans: It is a tree-like data structure normally used as an array. 
+ 
 How java manage it's memory?
+Ans: Java's memory area works by having different parts managing the memory. This includes heap works, reference types, and garbage collection. By having a system which retrieves and throws out data, it allows for Java to save memory. 
+
 What is the difference between String, StringBuffer and StringBuilder?
+Ans: A string is a class that represents sentences and statements. We represent them by putting them in double quotes. They are immutable, so string manipulation needs to be done. StringBuffer and StringBuilder are mutable objects that allow for string manipulation. StringBuffer changes the value of the object, and it is stored in heap. It is thread safe. The only difference between buffer and builder is that StringBuilder is not thread safe. 
+
 What is Singleton class?
+Ans: Singleton controls object creation by limiting it to only one object. They can only occur once per class. 
+
 What is Serialization and Deserialization?
+Ans: 
+
 when to use transient variable in java?
+Ans:
+
 Difference between while and do..while loop?
+Ans:
+
 What is Enum?
+Ans:
+
 What is Iterator?
+Ans:
+
 Which one will take more memory, an int or Integer?
+Ans:
+
 Why is String Immutable in Java?
+Ans:
+
 What is constructor chaining in Java?
+Ans:
+
 The difference between Serial and Parallel Garbage Collector?
+Ans:
+
 What is JIT stands for?
+Ans:
+
 Explain Java Heap space and Garbage collection?
+Ans:
+
 Can you guarantee the garbage collection process?
+Ans:
+
 What is the difference between stack and heap in Java?
+Ans:
+
 What is reflection in java and why is it useful?
+Ans:
+
 what is multithreading in java?
+Ans:
+
 What is the use of synchronization in Java?
+Ans:
+
 What is Framework?
+Ans:
+
 What are the testing Framework available in java?
+Ans:
+
 Difference between jUnit and testNG?
+Ans:
+
 What are the dependencies for this project?
+Ans:
+
 what is dependency injection in java?
+Ans:
+
 What is static binding and dynamic binding?
+Ans:
+
