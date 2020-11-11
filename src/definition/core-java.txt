@@ -37,19 +37,53 @@ Which class is the superclass of all classes?
 Ans: Java.lang.Object is the superclass. It is the main class where other classes get information to and from. 
 
 What is difference between path and classpath variables?
-Ans: 
+Ans: Classpath is used in the JVM to determine the location of the required class files. Path is used to prodivde a path for other Java tools, like javac or javadoc.  
 
-What is the difference between an Interface and Abstract class?
+What is the difference between an Interface and Abstract class?\
+Ans: Abstract class hides internal features of an application and only shows the user the functionality aspects. Interface class is a collection of abstract methods 
+that contain constants, default methods, static methods and nested types. 
+
 Can you make an Object from an Interface and Abstract class ? if not how do you use it ?
+Ans: You cannot because they are incomplete classes. For abstract class, you implement a class (which is not abstract), and for interface class, you need a class
+which will implement the bodies. Identifiers such as the "food" method can be used to achieve this. 
+
 what is Access Specifier?
+They regulate access to classes, fields, and methods in Java. The different types are:
+Private- only accessible in that specific class
+Default- no access specifier
+Public- accessible and visible to everyone. 
+Protected- accessible to that package and subclasses. 
+
 What is OOP ? Define each feature of java OOP.
+Ans: OOP (Object Oriented Programming) use objects in proframming. It's purpose is to bind together the data and functions that operate on them exclusive to that class. Features include:
+Classes- blueprint for all objects 
+Objects- contains variables (holds data) and methods (defines behaviors)
+Abstraction- shows only relevant data to the user 
+Encapsulation- binding object fields and methods together in a single class
+Inheritance- one class inherits the properties of another class 
+Polymorphism- object behaves differently in different situations. There is two types: method overloading and method overriding. 
+
 What is Java Package and which package is imported by default?
+Ans: Packages group together related classes created within it. Java API has a build-in default one, java.lang, and it is automatically imported by javac. 
+
 What is API? Name list of API that you have used so far.
+Ans: API (application programming interface) defines interactions. Some that we have used so far are import, or packages. 
+
 Does java support multiple inheritance, explain why or why not?
+Ans: It does not. Java language creators decided not to add it because it was too complex, and did nothing to benefit the program. 
+
 What is method overloading and when it happens?
+Ans: Method overloading is a feature that allows a class to have multiple methods in the same name. For example, int myMethod (int x). 
+
 Explain exceptions in java and how to handle it.
+Ans: Exceptions in java occur when an unwanted event occurs in the flow of the program, like errors in the code. One way to catch exceptions is to use the try/catch method to protect the code and create an exception for it to run. 
+
 What is static keyword in java? How it has been used in variables and methods ?
+Ans: Static is a constant that can be used to refer to the common property of all objects. It can be a variable, method, block, or nested class. It can be accessed at any time, and it's beneficial because it is memory efficient. 
+
 What is final and how it has been used variables and methods?
+Ans: It is a non-access modifier used only for variables, methods and classes. They are used to create constant variables, prevents method overriding, and prevent inheritance. It is a constant, like static methods, and it cannot be modified once declared.  
+
 What is final, finally and finalize?
 What is a constructor ?
 Can we have multiple constructors in a class?
