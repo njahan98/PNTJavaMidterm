@@ -8,15 +8,16 @@ public class CollectionView {
         /*
          Map is created and inserted some data.Retrieve the Collection view of values present in map
          */
-        HashMap<Integer, String> map = new HashMap<Integer, String>();
-        map.put(1, "NYC");
-        map.put(2, "LA");
-        map.put(3, "Denver");
-        map.put(4, "Boston");
-        map.put(5, "San Jose");
-        map.put(6, "Seattle");
+        HashMap<Integer, String> country = new HashMap<Integer, String>();
+        country.put(1, "USA");
+        country.put(2, "Bangladesh");
+        country.put(3, "Thailand");
+        country.put(4, "Japan");
+        country.put(5, "South Korea");
+        country.put(6, "Russia");
         
-        System.out.println(map);
+        System.out.println(country);
+
     }
 
 }
