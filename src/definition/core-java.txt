@@ -140,68 +140,68 @@ What is Singleton class?
 Ans: Singleton controls object creation by limiting it to only one object. They can only occur once per class. 
 
 What is Serialization and Deserialization?
-Ans: 
+Ans: It is the conversion of objects into a byte stream to transport the java objects from one JVM to another in order to recreate them to the original form. Recreating it from the byte stream to an actual java object is deserialization. Serialization is a helpful process because it saves the current state of an object, and helps an object travel across a network. 
 
 when to use transient variable in java?
-Ans:
+Ans: Transient is used as a variable modifier in serialization. If a value of a variable is not saved in a file, we use the transient keyword. Java will then ignore the value of the variable and save default value of that variable data type. 
 
 Difference between while and do..while loop?
-Ans:
+Ans: The while loop is done at the beginning of the loop, and if it is true, that is only when the statements in the loop will be executed. The do-while loop only runs if the first while loop fails, and it runs even if the condition is false. 
 
 What is Enum?
-Ans:
+Ans: It is a special class that represents constants. They have attributes and methods. The difference between enum and class is that enum constants are public, static, final, which cannot be changed. 
 
 What is Iterator?
-Ans:
+Ans: Iterators are used to loop various collections together. We commonly see them be used with HashMaps, ArrayLists, etc. They are different compared to enums because they allow the caller to remove elements, which is not possible with enum since they are constants. 
 
 Which one will take more memory, an int or Integer?
-Ans:
+Ans: Integer takes a lot more memory because its 128 bits, wheras int takes up 32 bits. 
 
 Why is String Immutable in Java?
-Ans:
+Ans: They are immutable because of security, synchronization, caching, and class loading. 
 
 What is constructor chaining in Java?
-Ans:
+Ans: It is the process of calling one constructor from another constructor. It can either me done in the same class, or from the base class. Constructor chaining allows for multiple tasks to be performed in one single constructor, which allows for more readable code. 
 
 The difference between Serial and Parallel Garbage Collector?
-Ans:
+Ans: Serial garbage collector works by holding all the application threads, and only for single-threaded environments. It is used for single command lines. Parallel garbage collector is used for multiple threads in comparison to serial. Both of them work by freezing applications that are not suitable for the server environment. 
 
 What is JIT stands for?
-Ans:
+Ans: Just-in-time compiler is pat of the JRE, and it optimizes java based applications during runtime. 
 
 Explain Java Heap space and Garbage collection?
-Ans:
+Ans: These are part of memory management. Objects reside inside the heap. When Java based applications are run, the JVM either increases or decreases in size. Once this becomes full, objects that are no longer in use are cleared via garbage collection, which then makes spaces for new objects. 
 
 Can you guarantee the garbage collection process?
-Ans:
+Ans: No. The only way at getting the best chance at garbage collecting is with methods like System.gc() or Runtime.gc(). 
 
 What is the difference between stack and heap in Java?
-Ans:
+Ans: Stack memory is used for static memory retention and to run a threat. Heap space is dynamic memory retention for Java objects and JRE classes during the runtime. 
 
 What is reflection in java and why is it useful?
-Ans:
+Ans: It is used to describe code which is able to inspect or modify runtime attributes in classes, interfaces, fields and methods. It is useful because when you don't know the names while trying to compile your code, it will come in handy. It can also invoke methods, or set field values. 
 
 what is multithreading in java?
-Ans:
+Ans: Multi-threading is a process of executing multiple threads simultaneously. benefits include efficient utlizing of single cpu systems, efficient utlization of multiple cpu systems, and improved user experience with respect to responsiveness and fairness. 
 
 What is the use of synchronization in Java?
-Ans:
+Ans: It allows Java to control the access of multiple threads to any shared resource. It is used to prevent thread inconsistencies and consistency problems in general. 
 
 What is Framework?
-Ans:
+Ans: They are used to develop applications which allow for focus on high-level functionality of the application. 
 
 What are the testing Framework available in java?
-Ans:
+Ans: There are many different types, like JUnit, Selenium, Cucumber, DBUnit. 
 
 Difference between jUnit and testNG?
-Ans:
+Ans: They are both frameworks for unit testing. In jUnit beforeclass and afterclass methods have to be declared as static. testNG doesn't have this constant. TestNG have four additional setup/teardown pairs for the suite, test and groups. 
 
 What are the dependencies for this project?
-Ans:
+Ans: Class/interface dependencies, compile, runtime, direct/indirect and jar dependencies. 
 
 what is dependency injection in java?
-Ans:
+Ans: It is a design pattern that allows us to remove hard-coded dependencies and make the application extendable and manageable. This helps java compile from compile-time to run time. 
 
 What is static binding and dynamic binding?
-Ans:
+Ans: Static binding is when type of the object is determined at compiled time. When type of the object is determined a run-time, it is known as dynamic binding. 
 
