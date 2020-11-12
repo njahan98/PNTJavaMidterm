@@ -22,6 +22,7 @@ public class ConnectToSqlDB {
     public static PreparedStatement ps = null;
     public static ResultSet resultSet = null;
 
+
     public static Properties loadProperties() throws IOException {
         Properties prop = new Properties();
         InputStream ism = new FileInputStream("src/secret.properties");
@@ -199,8 +200,8 @@ public class ConnectToSqlDB {
         try {
             connectToSqlDatabase();
             ps = connect.prepareStatement("INSERT INTO " + tableName + " ( " + columnName1 + "," + columnName2 + " ) VALUES(?,?)");
-            ps.setString(1, "Ankita Sing");
-            ps.setInt(2, 3590);
+            ps.setString(1, "Nusrut Jahan");
+            ps.setInt(2, 2998);
             ps.executeUpdate();
 
         } catch (IOException e) {
