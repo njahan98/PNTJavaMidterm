@@ -87,31 +87,33 @@ Draw a table with time complexity in which it will summarize all the data struct
   b)In terms of Inserting element.
   c)In terms of Searching element.
   d)In terms of Removing element.
-
+  
+=====================================================================================================================================
 Arrays:
 Pros- easy to create, easy to use; direct indexing O(1); Sequential access O(N)
 Cons- Sorting: O(NLogN); Searching: O(N), and O(LogN) if sorted; Inserting and deleting: O(N) because of shifting items 
-
+--------------------------------------------------------------------------------------------------------------------------------------
 LinkedList:
 Pros- Inserting and deleting O(1); Sequential access O(N)
 Cons- No direct access, only sequential access; Searching O(N); Sorting O(NLogN)
-
+--------------------------------------------------------------------------------------------------------------------------------------
 Stacks and Queues: 
 Pros- Push/Add O(1); Pop/Remove O(1); Peek O(1) 
 Cons- You can't pull item from the middle. 
-
+--------------------------------------------------------------------------------------------------------------------------------------
 HashTables:
 Pros- Insering and deleting, Hashing and Indexing; Direct Access O(1) + Hashing & Indexing
 Cons- Some overhead as require a little more space in memory than arrays; Retrieval of elements doesn't guarantee a specific order; searching for a value (without knowing it's key). 
-
+--------------------------------------------------------------------------------------------------------------------------------------
 Sets: 
 Pros- Checking membership, value existence; Avoids duplicates
 Cons- Sets are intentionally limited. You literally can't do anything with them. 
-
+--------------------------------------------------------------------------------------------------------------------------------------
 Binary Search Trees:
 Pros- Inserting and deleting; speed of access; maintains sorted order; retrieval of elements is in order 
 Cons- Some overhead because of their creation and management 
-
+--------------------------------------------------------------------------------------------------------------------------------------
 Heaps: 
 Pros- Find Mix/Find Max O(1); Inserting O(LogN), Delete Min/Delete Max O(LogN)
 Cons- Searching and deleting O(N) 
+=====================================================================================================================================
