@@ -45,7 +45,6 @@ public class JsonReaderUtil {
         JsonParser jp = new JsonParser();
         JsonElement root = jp.parse(new InputStreamReader((InputStream) request.getContent()));
         if (root instanceof JsonObject) {
-            JsonObject rootObj = root.getAsJsonObject();
         } else if (root instanceof JsonArray) {
             jsonArray = root.getAsJsonArray();
         }
@@ -53,7 +52,11 @@ public class JsonReaderUtil {
             try {
                 JsonObject jsonobject = jsonArray.get(i).getAsJsonObject();
                 //you code start here
-                String empEmail = jsonobject.get("empEmail").toString();
+                String empEmail = jsonobject.get("employee Email").toString();
+                String empName = jsonobject.get("employee Name").toString();
+                String salary = jsonobject.get("salary").toString();
+                String depart = jsonobject.get("department").toString();
+                System.out.println(empEmail + " " + empName + " " + salary + " " + depart);
                 System.out.println(empEmail);
 
             } catch (Exception ex) {
