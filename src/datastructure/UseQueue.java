@@ -22,7 +22,6 @@ public class UseQueue {
         System.out.println(twilight);
         
         //Peek 
-        String head = twilight.peek();
         System.out.println(twilight);
         
         //Remove
@@ -36,5 +35,4 @@ public class UseQueue {
         }
 
     }
-//need while loop + iterator
 }
